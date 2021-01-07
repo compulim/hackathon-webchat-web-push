@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "0.0.0-0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-dev --no-notify --respawn ./src/index"
+  },
+  "author": "William Wong (https://github.com/compulim)",
+  "license": "MIT",
+  "dependencies": {
+    "abort-controller": "3.0.0",
+    "dotenv": "8.2.0",
+    "event-target-shim": "5.0.1",
+    "express": "4.17.1",
+    "node-dev": "6.2.0",
+    "node-fetch": "2.6.1",
+    "p-defer": "3.0.0",
+    "serve-static": "1.14.1",
+    "web-push": "3.4.4",
+    "ws": "7.4.2"
+  }
+}
